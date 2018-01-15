@@ -29,4 +29,4 @@ unrar:
 	$(MAKE) -C unrar lib
 
 dist: unrar
-	pyinstaller comictagger.spec
+	pyinstaller -y comictagger.spec
